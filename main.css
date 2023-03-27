@@ -1,0 +1,133 @@
+*
+{
+    box-sizing: border-box;   
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: #1d1d1d;
+}
+
+body > header{
+    background-color: white;
+    padding: 15px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body > header a{
+font-weight: bold;
+text-decoration: none;
+}
+
+header .container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{  
+    margin-left: 20px; 
+    display: inline;
+}
+
+header li a{
+    color: #9c1be7;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;    
+}
+
+
+h2{
+    color: #1ddf84;
+}
+
+.articles{
+    color: rgb(241, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles time{
+    color:#808080;
+}
+
+.articles article img{
+    /*width: 200px;
+    height: 130px;*/
+
+    width: 100%;   
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px 5px #0000009d;
+
+}
+
+
+.articles article {
+    width: 30%;
+}
+
+.articles article p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.articles article h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section{
+    padding: 16px 0px;
+}
+
+section h3,
+.articles article{
+    margin-bottom: 20px;
+}
+
+.articles article h3{
+    margin-top: 20px;
+    margin-bottom: 20;
+}
+
+.articles article a{
+    margin-top: 10px;
+    background-color: #800080;
+    color:#fff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+#economy {
+    background-color: black;
+}
+#entretenimento{    
+    background-color:#f0a910;
+}
+#entretenimento h2{    
+    color:#9c1be7;
+}
+#tecnologia{
+    background-color: #9c1be7;
+}
+#tecnologia h2{
+    color:#f0a910;
+}

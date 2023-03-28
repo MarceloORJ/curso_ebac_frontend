@@ -42,7 +42,7 @@ header li a{
 
 
 h2{
-    color: #1ddf84;
+    color: #d31847;
 }
 
 .articles{
@@ -67,7 +67,7 @@ h2{
 
 
 .articles article {
-    width: 30%;
+    width: 30%;   
 }
 
 .articles article p{
@@ -91,9 +91,9 @@ section h3,
     margin-bottom: 20;
 }
 
-.articles article a{
+#sports .articles article a{
     margin-top: 10px;
-    background-color: #800080;
+    background-color: #bd0b37;
     color:#fff;
     padding: 15px;
     display: inline-block;
@@ -101,6 +101,40 @@ section h3,
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 }
+
+#economy .articles article a{
+    margin-top: 10px;
+    background-color: #13d463;
+    color:#fff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#entretenimento .articles article a{
+    margin-top: 10px;
+    background-color: #9c1be7;
+    color:#fff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+#tecnologia .articles article a{
+    margin-top: 10px;
+    background-color: #f0a910;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
 
 .articles article a:hover{
     text-decoration: underline;
@@ -114,6 +148,10 @@ section h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
     padding-bottom: 30px;
+}
+
+#economy h2{
+    color:#1ddf84;
 }
 
 #economy {

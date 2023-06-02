@@ -32,7 +32,7 @@ function compilaSass(){
 exports.default = function(){
     gulp.watch('source/styles/*.scss', {ignoreInitial: false}, gulp.series(compilaSass));
     gulp.watch('./source/scripts/*.js', {ignoreInitial: false}, gulp.series(comprimeJavaScript));
-    gulp.watch('./soruce/images/*', {ignoreInitial: false}, gulp.series(comprimeImagens));
+    gulp.watch('./source/images/*', {ignoreInitial: false}, gulp.series(comprimeImagens));
 }
 
 exports.javascript = comprimeJavaScript;

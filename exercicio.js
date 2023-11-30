@@ -17,7 +17,7 @@ function aprovado(){
     const aprovados = [];
     const reprovados = [];
 
-    alunos.map((aluno) =>{
+    alunos.filter((aluno) =>{
         if(aluno.nota >= 6){
             aprovados.push(aluno);
         }
